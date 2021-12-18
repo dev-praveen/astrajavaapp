@@ -1,0 +1,22 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: fuel
+      username: sHTGThWZgcNGXwbXlOMjztCb
+      password: HgjhYKIRy,sJSG9p_OHzZcMRJYKROhGPtZfNZgPPfgGW+TbZDw2urwkER+vaR2,694B+RR_wsoYpgU7gGw5.RsK7dxoU,eNF7ylym9crTzNrzDaRIIAeMsX1wAW2WETf
+      schema-action: create-if-not-exists
+      request:
+        timeout: 10s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+
+
+datastax.astra:
+  secure-connect-bundle: /home/praveen/IdeaProjects/secure-connect-pisis.zip
+
+astra.db:
+  id: 63ae9f4c-c07e-49ea-90d1-270f634dc997
+  region: asia-south1
+  keyspace: fuel
+  application.token: AstraCS:sHTGThWZgcNGXwbXlOMjztCb:d8853ad42f7f3276e891c0511d4aa92af3fc8739af7756fc6d7e1451b7144ea2
